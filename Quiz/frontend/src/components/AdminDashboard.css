@@ -1,0 +1,66 @@
+/* Admin Dashboard Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.admin-dashboard {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.admin-header {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.admin-subheader {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.score-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.score-table th,
+.score-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.score-table th {
+    background-color: #4e4376;
+    color: white;
+    text-transform: uppercase;
+}
+
+.score-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.score-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.score-table td {
+    color: #333;
+}
